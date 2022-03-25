@@ -166,7 +166,7 @@ Terrain:
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 250
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
@@ -694,9 +694,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6902573867230041995, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9c07eda3dceab04db68ebf814681197, type: 2}
     - target: {fileID: 919132149155446097, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
       propertyPath: m_Name
       value: player model
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129496810705857465, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9c07eda3dceab04db68ebf814681197, type: 2}
+    - target: {fileID: 1395907985004231953, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021228346462164004, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224694813830001383, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944656104360116776, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9c07eda3dceab04db68ebf814681197, type: 2}
+    - target: {fileID: 7071182760956848314, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9c07eda3dceab04db68ebf814681197, type: 2}
+    - target: {fileID: 7202271454713460447, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9c07eda3dceab04db68ebf814681197, type: 2}
+    - target: {fileID: 9179017853419834167, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbd91d5f7b1a23648984754dc8e670d9, type: 3}
