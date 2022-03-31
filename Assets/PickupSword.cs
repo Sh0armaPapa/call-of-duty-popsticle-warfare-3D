@@ -9,7 +9,7 @@ public class PickupSword : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("player model");
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -20,5 +20,7 @@ public class PickupSword : MonoBehaviour
             player.transform.Find("Main Camera").Find("sword").gameObject.SetActive(true);
             gameObject.SetActive(false);
         }
+        
     }
+    
 }
